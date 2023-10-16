@@ -1,0 +1,32 @@
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+h1{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(122, 89, 156);
+    font-size: 50px;
+}
+
+h2{
+    color: rgb(122, 89, 156);
+}
+
+h5{
+    color: rgb(122, 165, 226);
+}
+
+footer {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+
+
