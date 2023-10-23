@@ -1,0 +1,144 @@
+body {
+    background-color: burlywood;
+}
+
+
+
+
+.navbar {
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(84, 37, 9);
+    height: 75px;
+    width: auto;
+    margin-top: 0;
+    
+  
+}
+
+
+
+.navbar li {
+    float: left;
+    margin-left: 350px;
+}
+
+.navbar li a {
+    color: azure;
+    line-height: 75px;
+    font-size: 20px;
+}
+
+.div_nav {
+    width: 100%;
+    position: sticky;
+
+}
+
+button {
+    background-color: brown;
+    color: wheat;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+
+  label {
+    flex-basis: 80px; 
+    text-align: right; 
+    margin-right: 7px; 
+  }
+
+  textarea {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid #7f0404;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  textarea:hover {
+    background-color: white;
+    color:rgb(230, 5, 5)
+  }
+
+  textarea:active {
+    background-color: black;
+    color: white;
+  }
+
+  textarea::placeholder{
+    color: red;
+  }
+  
+  .contact-me {
+    background-color: #580d0d;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.contact-me-h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+
+}
+
+
+
+.phone-icon {
+    font-size: 18px; 
+    margin-right: 5px; 
+    
+  }
+
+  .location-icon {
+    font-size: 18px; 
+    margin-right: 5px; 
+    
+  }
+
+  .email-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  } 
+  
+  .facebook-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  } 
+  
+  .instagram-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .icon-color p a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .icon-color p a:hover {
+    color: black;
+  }
+
+  .icon-color p a:active {
+    color: wheat;
+  }
+
+
+  .footer {
+    text-align: center;
+    line-height: 70px;
+  }
+
+
+
+

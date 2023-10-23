@@ -1,0 +1,172 @@
+/* div{
+    width: 300px;
+    height: 300px;
+
+}
+
+.left{
+    background-color: blue;
+    float: left;
+    
+
+}
+
+.right{
+    background-color: red;
+    clear: left;
+    
+
+}
+
+.clear {
+    background-color: green;
+    
+} */
+
+/* img {
+    width: 300px;
+    float: left;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .left {
+        float: right;
+    }
+
+    .right {
+        float: right;
+    }
+    
+} */
+
+/* 
+ div{
+    width: 100px;
+    height: 100px;
+}
+
+.left {
+    background-color: red;
+}
+
+.right {
+    background-color: blue;
+}
+
+.left1 {
+    background-color: yellow;
+}
+.right1 {
+    background-color: green;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row; 
+     flex-wrap: wrap; 
+    justify-content: space-between;
+} */
+
+
+ /* o pagina de stiri partea stg un meniu cu tipuri de stiri, politica, etc si in centru o sa aiba textul  */
+
+/* .main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+} */
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100vw;
+    height: 100px;
+    background-color: aqua;
+}
+
+.main{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    border: 5px solid black;
+    flex-direction: row;
+} 
+
+
+.menu {
+    width: 20vw;
+    background-color: red;
+
+}
+
+.content {
+    width: 80vw;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+/* .div1 {
+    background-color: red;
+    flex-grow: 1;
+    order: 3;
+}
+
+.div2{
+    background-color: blue;
+    flex-grow: 4;
+    order: 4;
+
+}
+
+.div3 {
+    background-color: green;
+    flex-grow: 2;
+    order: 2;
+
+}
+
+.div4 {
+    background-color: yellow;
+    flex-grow: 1;
+    order: 1;
+
+}
+
+
+.main2 {
+    width: 200px;
+    height: 60vh;
+    background-image: linear-gradient(to top left, green , rgb(37, 6, 109), rgb(255, 0, 0)); 
+    box-shadow: 30px 30px orange;
+
+    transform: scale(20%);
+    transform: scaleY(20%);
+
+    transform: translate(200px 60px);
+    transform: rotate(-deg);
+    background-color: aqua;
+
+    transition: width 5s;
+
+
+}
+
+div:hover 
+{
+    width: 400px;
+    background-color: orange;
+}
+
+ */ 

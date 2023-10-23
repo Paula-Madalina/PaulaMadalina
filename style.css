@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background: linear-gradient(to right, #363795, #005c97);
+}
+
+/* General styles */
+
+.page-container {
+    width: 480px;
+    max-width: 100%;
+    padding: 16px;
+    margin: 0 auto;
+
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+section .section-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    
+
+}
+
+
+/* Header styles */
+
+header{
+    background-image: url(images/cover.jpg);
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/* Profile styles */
+
+.profile {
+    text-align: center;
+    margin-top: -75px;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border: solid 4px rgb(210, 207, 30);
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-inline: auto; */
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.profile-details{
+    font-size: 16px;
+    margin: 24px 0;
+}
+
+.profile-details h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.tags span {
+    font-size: 14px;
+    background-color: #3d64a6;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Projects styles */
+
+.project{
+    font-size: 16px;
+    background-color: #3d64a6;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%;
+
+} 
+
+.project .project-title{
+    padding: 16px;
+}
+.projects-details {
+    display: none;
+    background-color: #3d64a6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
+
+.projects-details .btn-outline {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: solid 2px white;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+}
+
+.projects-details .btn-outline:hover {
+    color: #3d64a6;
+    background-color: #fff;
+
+}
+
+.project:hover .projects-details {
+    display: block;
+}
+
+/* Profile links style */
+
+.profile-links {
+    list-style: none;
+}
+
+.profile-links li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3d64a6;
+    padding: 16px;
+    display: block;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+.profile-links li a:hover {
+    background-color: #2b579e;
+
+}
+
+/* Footer style */
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+/* Media Query */
+@media screen and (min-width:768px)  {
+
+    .projects {
+        overflow: hidden;
+    }
+
+
+    .project {
+        width: 48%;
+    }
+
+
+
+    .project:nth-child(2n + 1) {
+        float: left;
+        margin-right: 4%;
+    }
+
+}

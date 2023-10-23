@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 231, 227);
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header img {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+
+}
+
+
+
+
+.navbar {
+    list-style: none;
+    overflow: hidden;
+    background-color: #332;
+    margin-top: 0;
+    line-height: 50px;
+    font-size: 20px;
+    width: auto;
+    
+    
+    
+}
+
+
+.navbar li {
+    float: left;
+    margin-left: 350px;
+}
+
+.navbar li a {
+    color: azure;
+    text-decoration: none;
+    
+}
+
+
+.Navbar-title h1,p{
+    
+   display: inline-block;
+}
+.Navbar-title {
+    display: flex;
+    justify-content: center;
+}
+
+.imagine {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* .navbar-section {
+    float: left;
+} */
+
+h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 50px;
+
+}
+
+.education  {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.education-h2 {
+    color: darkslateblue;
+}
+
+.Languages {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.language-h2 {
+    color: darkslateblue;
+}
+
+ 
+ .progress {
+    background-color: #ccc;
+    height: 20px;
+    position: relative;
+    
+
+ }
+ 
+ .bar {
+    background-color: #333; 
+    height: 100%;
+    width: 80%;
+     position: absolute; 
+ }
+
+ .bar2{
+    background-color: #333; 
+    height: 100%;
+    width: 60%;
+    position: absolute;
+ }
+
+ .bar3 {
+    background-color: #333;
+    height: 100%;
+    width: 15%;
+ }
+ 
+.Skills {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+}
+
+.skills-h2 {
+    color: darkslateblue;
+}
+
+.Skills-list {
+    list-style: none;
+    padding-left: 0;
+    
+
+}
+
+.Skills-list li::before {
+    content: "\2713";
+    margin-right: 5px;
+    color: green;
+}
+
+
+.software {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+}
+
+.software-h2 {
+    color: darkslateblue;
+}
+
+.software-ul {
+    margin-left: 2pxpx;
+}
+
+.ul-li {
+    
+    list-style-type: disc;
+}
+
+
+
+.Driver-licence {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.driver-licence-h2 {
+    color: darkslateblue;
+}
+
+.contact-me {
+    background-color: #aca2a2;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contact-me-h1 {
+    color: darkslateblue;
+}
+
+.phone-icon {
+    font-size: 18px; 
+    margin-right: 5px; 
+    
+  }
+
+  .location-icon {
+    font-size: 18px; 
+    margin-right: 5px; 
+    
+  }
+
+  .email-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  } 
+  
+  .facebook-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  } 
+  
+  .instagram-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .icon-color p a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .icon-color p a:hover {
+    color: purple;
+  }
+
+  .icon-color p a:active {
+    color: white;
+  }
+
