@@ -1,0 +1,115 @@
+@import "../_globals.css";
+
+.homepage {
+    background-image: url(../assets/home/background-home-mobile.jpg);
+}
+
+/* MAIN SECTION */
+
+body > main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta-btn {
+    display: block;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-mainBlack);
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.cta-btn:hover, .cta-btn:active, .cta-btn:focus {
+    box-shadow: rgba(255, 255, 255, 0.1036) 0 0 3px 50px;
+    transition: box-shadow 0.6 ease-in-out ;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .homepage {
+        background-image: url(../assets/home/background-home-tablet.jpg);
+    }
+
+
+    .cta-btn {
+        width: 242px;
+        height: 242px;
+        flex-shrink: 0;
+        font-size: 32px;
+        letter-spacing: 2px;
+        margin-top: 156px;
+    }
+
+    .cta-btn:hover, .cta-btn:active, .cta-btn:focus {
+    box-shadow: rgba(255, 255, 255, 0.1036) 0 0 3px 70px;
+    transition: box-shadow 0.6 ease-in-out ;
+    }
+
+    .subtitle {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) 
+{
+    .homepage {
+        background-image: url(../assets/home/background-home-desktop.jpg);
+    }
+
+    
+
+    body > main {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 300px;
+    }
+
+    .main-title {
+        display: inline-flex;
+        padding-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      
+    }
+
+    .cta-btn {
+        width: 300px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 274px;
+        background: #FFF;
+        color: #0B0D17;
+        font-family: Bellefair;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

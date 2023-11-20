@@ -1,0 +1,130 @@
+@import "../../_globals.css";
+
+body {
+    background-image:  url(../../assets/crew/background-crew-mobile.jpg);
+}
+
+.crewpic-div {
+    text-align: center;
+}
+
+.crew-picture {
+    width: 200px;
+    height: 230px;
+    flex-shrink: 0;
+    margin: 36px 98px 0 100px;
+
+}
+
+.second-hr {
+    display: block;
+    text-align: center;
+
+    /* margin-left: 30px;
+    margin-right: 100px; */
+    width: 100%;
+    flex-shrink: 0;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.2;
+    margin-top:-3px;
+    
+
+}
+
+.steps {
+    text-align: center;
+    margin: 32px;
+    
+}
+
+.p1-lefttext {
+    color: #fff;
+    opacity: 0.4951;
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background-image: url(../../assets/crew/background-crew-tablet.jpg);
+    }
+
+    .second-hr {
+        display: none;
+    }
+
+    .main-side {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .p2-lefttext {
+        padding: 0 155px;
+        
+    }
+
+    .p1-lefttext{
+        margin-top: 60px;
+    }
+
+    .crew-picture {
+        width: 456.372px;
+        height: 572px;
+        flex-shrink: 0;
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../../assets/crew/background-crew-desktop.jpg);
+    }
+
+    .main-side {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .p1-lefttext , .h3-lefttext , .p2-lefttext {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-content {
+        justify-content: space-evenly;
+    }
+
+
+    .crew-picture {
+        width: 568.072px;
+        height: 712px;
+        flex-shrink: 0;
+        margin: 60px 140px 0 80px ;
+    }
+    
+    .steps {
+        text-align: left;
+        margin: 0;
+    }
+
+    .main-content {
+        margin: 0 0 0 167px;
+    }
+
+    .p2-lefttext {
+        width: 600px;
+    }
+
+    .h3-lefttext {
+        margin: 20px 0 30px 0;
+    }
+
+    .subtitle {
+        margin: 70px 0 0 167px;
+    }
+}

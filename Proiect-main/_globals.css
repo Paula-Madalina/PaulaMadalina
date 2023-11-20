@@ -1,0 +1,23 @@
+@import "./navbar/navbar.css";
+@import "./_variables.css";
+@import "./typography.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
