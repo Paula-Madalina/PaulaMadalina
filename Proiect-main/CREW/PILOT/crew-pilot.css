@@ -8,13 +8,6 @@ body {
     text-align: center;
 }
 
-.crew-picture {
-    width: 200px;
-    height: 230px;
-    flex-shrink: 0;
-    margin: 36px 98px 0 100px;
-
-}
 
 .second-hr {
     display: block;
@@ -72,12 +65,6 @@ body {
         margin-top: 60px;
     }
 
-    .crew-picture {
-        width: 456.372px;
-        height: 572px;
-        flex-shrink: 0;
-        margin-top: 40px;
-    }
     
 }
 
@@ -99,13 +86,6 @@ body {
         justify-content: space-evenly;
     }
 
-
-    .crew-picture {
-        width: 568.072px;
-        height: 712px;
-        flex-shrink: 0;
-        margin: 60px 140px 0 80px ;
-    }
     
     .steps {
         text-align: left;

@@ -89,6 +89,14 @@
     padding:  0 10px;
 }
 
+.crew-picture {
+    width: 200px;
+    height: 230px;
+    flex-shrink: 0;
+    margin: 36px 98px 0 100px;
+
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -172,6 +180,13 @@
     font-weight: 400;
     line-height: 25px;
     padding:  0 10px;
+}
+
+.crew-picture {
+    width: 456.372px;
+    height: 572px;
+    flex-shrink: 0;
+    margin-top: 40px;
 }
 }
 
@@ -265,5 +280,11 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: 3.375px;
+    }
+    .crew-picture {
+        width: 568.072px;
+        height: 795px;
+        flex-shrink: 0;
+        margin: 60px 140px 0 80px ;
     }
 }
